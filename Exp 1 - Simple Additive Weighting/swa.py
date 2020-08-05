@@ -9,9 +9,9 @@ import numpy as np
 # Read in the normalized dataframe
 data = pd.read_csv("normalized_data.csv", index_col = 0)
 print(data.tail())
-# Number of alternatives
-m = len(data.columns)
 # Number of attributes
+m = len(data.columns)
+# Number of alternatives
 n = len(data)
 
 # Generate equal weights for all attributes
